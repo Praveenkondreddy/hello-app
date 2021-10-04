@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  
+    
+  nodejs:
+    build: 
+      context: .
+    image: node-docker-todo
+    ports:
+      - "9000:8080"
+   
+    
+  
